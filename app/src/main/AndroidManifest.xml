@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anifuli">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ekran_g_r_nt_s__2021_05_03_163243"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ekran_g_r_nt_s__2021_05_03_163243"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Anifuli">
+        <activity android:name=".Example"></activity>
+        <activity android:name=".Fav" />
+        <activity android:name=".MyList" />
+        <activity android:name=".AnimeInfo" />
+        <activity android:name=".Categories2" />
+        <activity android:name=".Profile" />
+        <activity android:name=".mainMenuActivity" />
+        <activity android:name=".registerActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
